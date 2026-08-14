@@ -1,0 +1,72 @@
+{
+  "n_novels": 1902,
+  "n_authors": 100,
+  "n_serial_novels": 1108,
+  "n_control_novels": 794,
+  "n_serial_authors": 35,
+  "n_control_authors": 65,
+  "author_level": {
+    "n_authors_treated": 35,
+    "n_authors_control": 65,
+    "mean_treated": 0.3922,
+    "mean_control": 0.4405,
+    "cohens_d": -0.8407,
+    "welch_p": 0.0001,
+    "mannwhitney_p": 0.0001
+  },
+  "clustered_ols": {
+    "coef": -0.03,
+    "ci_low": -0.0526,
+    "ci_high": -0.0074,
+    "p_value": 0.009199229636662446
+  },
+  "permutation": {
+    "observed": -0.03,
+    "n_draws": 2000,
+    "p_value": 0.022488755622188907
+  },
+  "cast_at_cutoff": {
+    "n_authors_treated": 35,
+    "n_authors_control": 65,
+    "mean_treated": 0.3911,
+    "mean_control": 0.4372,
+    "cohens_d": -0.8113,
+    "welch_p": 0.0001,
+    "mannwhitney_p": 0.0002,
+    "n_novels": 1876
+  },
+  "internal_before_1880": {
+    "slope": -0.00023,
+    "p_clustered": 0.6046393184567451,
+    "n_novels": 497
+  },
+  "internal_after_1880": {
+    "slope": 0.00134,
+    "p_clustered": 0.04114186328542927,
+    "n_novels": 554,
+    "slope_with_author_fe": 0.00175,
+    "p_with_author_fe": 0.028143342297957737
+  },
+  "slope_interaction": {
+    "slope_control": 0.00022,
+    "slope_serial": 0.00134,
+    "interaction": 0.00113,
+    "p_value": 0.2651984754148864,
+    "note": "the two slopes are not statistically distinguishable; we claim only that concentration also rises within the serial group"
+  },
+  "recurring_hero": {
+    "n_authors_with_series": 7,
+    "n_authors_without": 28,
+    "mean_with_series": 0.3433,
+    "mean_without": 0.4045,
+    "cohens_d": -1.785,
+    "exact_p": 5.38328386264001e-05,
+    "note": "Tested inside the predefined serialization-oriented group, so the population matches the main test. Sensitivity: admitting the four series authors excluded from that group as publication-ambiguous (Ponson du Terrail, Leblanc, Leroux, Sazie) gives 11 vs 19 authors, d = -0.39, p = 0.09 -- a smaller gap in the same direction."
+  },
+  "recurring_hero_sensitivity": {
+    "n_authors_with_series": 11,
+    "n_authors_without": 28,
+    "cohens_d": -0.591,
+    "exact_p": 0.0325294747530647
+  }
+}

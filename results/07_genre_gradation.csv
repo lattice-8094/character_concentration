@@ -1,0 +1,12 @@
+genre,n,mean,median_year,vs_corpus
+nouvelles,175,0.3463,1882.0,-0.0698
+roman d'aventures,348,0.3882,1876.0,-0.0279
+policier,161,0.4035,1917.0,-0.0126
+roman historique,143,0.411,1862.0,-0.0051
+récit de voyage,30,0.4133,1891.0,-0.0028
+mémoires et autobiographie,54,0.4357,1890.5,0.0196
+fantastique,56,0.4416,1895.5,0.0255
+littérature jeunesse,134,0.4581,1880.0,0.042
+cycles et séries,162,0.4627,1856.0,0.0466
+épistolaire,31,0.4871,1866.0,0.071
+roman sentimental,68,0.5013,1926.0,0.0852

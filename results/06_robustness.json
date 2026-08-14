@@ -1,0 +1,39 @@
+{
+  "cast_size": {
+    "mean_retained": 19.91,
+    "share_at_cutoff": 0.9829,
+    "decade_means": {
+      "1800": 19.76,
+      "1810": 20.0,
+      "1820": 19.8,
+      "1830": 19.92,
+      "1840": 19.94,
+      "1850": 19.95,
+      "1860": 19.98,
+      "1870": 19.98,
+      "1880": 19.97,
+      "1890": 19.83,
+      "1900": 19.72,
+      "1910": 19.74,
+      "1920": 19.85,
+      "1930": 19.86
+    },
+    "note": "the cutoff fixes cast size by construction, so the rise in concentration is a redistribution within a constant cast"
+  },
+  "rarefaction": {
+    "novels_per_year": 20,
+    "draws": 300,
+    "years_retained": 125,
+    "vertex_median": 1869.4,
+    "vertex_ci": [
+      1864.8,
+      1872.3
+    ],
+    "note": "series cut at the end of the 1930s: wartime publishing and copyright gaps leave the 1940s with too few novels to resample"
+  },
+  "structure_vs_attention": {
+    "pearson_r": 0.879,
+    "spearman_rho": 0.893,
+    "n": 11676
+  }
+}

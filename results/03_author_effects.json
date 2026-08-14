@@ -1,0 +1,73 @@
+{
+  "variance_by_threshold": [
+    {
+      "min_novels": 1,
+      "n_novels": 11676,
+      "n_authors": 3129,
+      "r2": 0.418,
+      "r2_adjusted": 0.206
+    },
+    {
+      "min_novels": 2,
+      "n_novels": 9968,
+      "n_authors": 1421,
+      "r2": 0.309,
+      "r2_adjusted": 0.194
+    },
+    {
+      "min_novels": 3,
+      "n_novels": 9004,
+      "n_authors": 939,
+      "r2": 0.269,
+      "r2_adjusted": 0.184
+    },
+    {
+      "min_novels": 5,
+      "n_novels": 7682,
+      "n_authors": 548,
+      "r2": 0.224,
+      "r2_adjusted": 0.165
+    },
+    {
+      "min_novels": 10,
+      "n_novels": 5669,
+      "n_authors": 232,
+      "r2": 0.178,
+      "r2_adjusted": 0.143
+    },
+    {
+      "min_novels": 20,
+      "n_novels": 3766,
+      "n_authors": 89,
+      "r2": 0.146,
+      "r2_adjusted": 0.126
+    }
+  ],
+  "period_coefficients": {
+    "[1820, 1840)": {
+      "without_fe": -0.0028,
+      "with_fe": -0.0013
+    },
+    "[1840, 1860)": {
+      "without_fe": -0.0306,
+      "with_fe": -0.03
+    },
+    "[1860, 1880)": {
+      "without_fe": -0.0288,
+      "with_fe": -0.0339
+    },
+    "[1880, 1900)": {
+      "without_fe": -0.0207,
+      "with_fe": -0.0365
+    },
+    "[1900, 1920)": {
+      "without_fe": -0.0171,
+      "with_fe": -0.0283
+    },
+    "[1920, 1940)": {
+      "without_fe": -0.0006,
+      "with_fe": -0.0102
+    }
+  },
+  "note": "R2 rises mechanically with the number of author dummies; the adjusted R2 is the defensible figure."
+}

@@ -1,0 +1,142 @@
+# Author-level serialization labels.
+# Assigned from publication history (Queffelec 1989; Letourneux 2017;
+# Thiesse 1984), never from the measured concentration.
+
+feuilleton:
+  core:
+  - sue
+  - feval
+  - montepin
+  - gaboriau
+  - mary
+  - gueroult
+  - zaccone
+  - lermina
+  - merouvel
+  - belot
+  - aimard
+  - richebourg
+  - zevaco
+  - bouvier
+  - chavette
+  - noir
+  - mahalin
+  - gastyne
+  - bernede
+  - assollant
+  - ferry
+  - malot
+  - souvestre
+  ambiguous:
+  - dumas
+  - gautier
+  late:
+  - le-roux
+  - lavedan
+  - mendes
+  - silvestre
+  - ivoi
+  - mael
+  - omonroy
+  - driant
+  - levray
+  - dombre
+control:
+  narrow:
+  - flaubert
+  - stendhal
+  - nerval
+  - merimee
+  - fromentin
+  - constant
+  - huysmans
+  - loti
+  - bourget
+  - france
+  - proust
+  - gide
+  - villiers
+  - gourmont
+  - schwob
+  - renard
+  - regnier
+  - boylesve
+  - toulet
+  - larbaud
+  - giraudoux
+  - bernanos
+  - duhamel
+  - fournier
+  - bloy
+  mid_century:
+  - sandeau
+  - murger
+  - goncourt
+  - nodier
+  - balzac
+  - musset
+  - champfleur
+  - barbey
+  - colet
+  - du-camp
+  - ourliac
+  - monselet
+  - pontmartin
+  broad:
+  - about
+  - adam
+  - banville
+  - bazin
+  - claretie
+  - coppee
+  - droz
+  - duranty
+  - feuillet
+  - halevy
+  - hervieu
+  - lemaitre
+  - mirbeau
+  - prevost
+  - rod
+  - theuriet
+  - genlis
+  - segur
+  - barres
+  - cherbuliez
+  - lorrain
+  - lemonnier
+  - courteline
+  - la-jeuness
+  - rebell
+  - kahn
+  - allais
+  - eekhoud
+  - beaume
+  - nion
+excluded:
+  _comment: Authors who moved substantially between the two circuits; assigning them
+    to either group would blur the contrast.
+  authors:
+  - zola
+  - sand
+  - daudet
+  - maupassant
+  - verne
+  - leroux
+  - ponson
+  - leblanc
+recurring_hero:
+  _comment: Feuilleton authors who built series around a returning figure (tested
+    in scripts/04).
+  authors:
+  - ponson
+  - leblanc
+  - leroux
+  - souvestre
+  - gaboriau
+  - zevaco
+  - driant
+  - mahalin
+  - bernede
+  - sazie
+  - ivoi

@@ -1,0 +1,9 @@
+{
+  "n_specifications": 12,
+  "all_negative": true,
+  "n_significant_5pct": 12,
+  "coef_min": -0.0847,
+  "coef_max": -0.03,
+  "coef_median": -0.0415,
+  "p_max": 0.0395
+}

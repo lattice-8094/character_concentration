@@ -1,0 +1,15 @@
+{
+  "n_novels": 11676,
+  "vertex": 1866.9,
+  "convex": true,
+  "trough_mean": 0.4074,
+  "peak_mean": 0.4508,
+  "trough_to_peak": 0.0434,
+  "cohens_d": 0.397,
+  "within_period_sd": 0.1125,
+  "share_trough_above_peak_mean": 0.356,
+  "cr1_trough": 0.2572,
+  "cr1_peak": 0.3083,
+  "post1900_coef": 0.0222,
+  "post1900_p_clustered": 1.1446120951369861e-07
+}
