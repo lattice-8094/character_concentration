@@ -112,11 +112,19 @@ rather than forced into either side.
 ## Citation
 
 ```bibtex
-@inproceedings{serialization2026,
-  title     = {Serialization and the Character-System: Measuring Narrative
-               Concentration in French Fiction (1800--1940)},
-  booktitle = {Computational Humanities Research (CHR)},
-  year      = {2026}
+@article{Barre_2026_CHR,
+  title={Serialization and the Character-System: Measuring Narrative Concentration in French Fiction (1800--1940)},
+  volume={tba},
+  DOI={tba},
+  url={tba},
+  journal={Anthology of Computers and the Humanities},
+  publisher={The Association for Computers and the Humanities},
+  author={Barré, Jean and Bourgois, Antoine and Poibeau, Thierry},
+  editor={Beelen, Kaspar and Colavizza, Giovanni and Gius, Evelyn},
+  year={2026},
+  month=tba,
+  pages={tba},
+  keywords={computation}
 }
 ```
 
